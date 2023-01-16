@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web coñazos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Red container div-->
+    <div class="big-container">
+        <!--Smaller red container div-->
+        <div class="smaller-container">
+            <!--Player health-->
+            <meter id="playerHealth" class="health-bar player-bar" value="1"></meter>
+            <!--Timer-->
+            <div id="timer" class="timer"></div>
+            <!--Enemy health-->
+            <meter id="enemyHealth" class="health-bar" value="1"></meter>
+        </div>
+        <div id="result" class="result"></div>
+        <canvas></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js" integrity="sha512-6zTDRWNxo8vI6JZYDCwhrJpg5icK3P4HNnW3czsO5Scb3lAoPDam+/wF3eog4hxcl0h44d0XlIcFkuoSaWHQ2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./bootstrap.js"></script>
+</body>
+</html>
